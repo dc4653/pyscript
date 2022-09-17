@@ -21,19 +21,19 @@ def information(info):
     write("b" + str(i), info[key[i]])
 
 # 배경 색깔 설정
-colors = ["green", "blue"]
+colors = ["purple", "blue"]
 background(colors)
 
 # 이름과 설명, 버튼에 들어갈 글 설정
-write("name", "이름")
-write("description", "설명")
-write("button", "버튼")
+write("name", "김동찬")
+write("description", "소개서")
+write("button", "인스타주소")
 
 # 상세설명에 들어갈 제목과 글 설정
 informations = {
-  "제목1": "내용1",
-  "제목2": "내용2",
-  "제목3": "내용3",
-  "제목4": "내용4"
+  "현재 재학중인 학교": "지산중학교",
+  "생년월일": "2007/03/16",
+  "나이": "16",
+  "전화번호": "010-3663-4653"
 }
 information(informations)
